@@ -1,0 +1,44 @@
+<?xml-stylesheet type="text/css" href="5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+<h1>
+Students Description
+</h1>
+</head>
+
+<students >
+
+<student>
+
+<USN>USN:1</USN>
+<NAME>NAME:spu</NAME>
+<COLLEGE>COLLEGE:jss</COLLEGE>
+<BRANCH>BRANCH:ise</BRANCH>
+<YEAR>YEAR:2020</YEAR>
+<EMAIL>EMAIL:sp@gmail.com</EMAIL>
+</student>
+
+<student>
+
+<USN>USN:2</USN>
+<NAME>NAME:shw</NAME>
+<COLLEGE>COLLEGE:rr</COLLEGE>
+<BRANCH>BRANCH:cse</BRANCH>
+<YEAR>YEAR:2029</YEAR>
+<EMAIL>EMAIL:sh@gmail.com</EMAIL>
+</student>
+
+<student>
+
+<USN>USN:3</USN>
+<NAME>NAME:raks</NAME>
+<COLLEGE>COLLEGE:svit</COLLEGE>
+<BRANCH>BRANCH:eie</BRANCH>
+<YEAR>YEAR:2019</YEAR>
+<EMAIL>EMAIL:rak@gmail.com</EMAIL>
+</student>
+
+</students>
+
+</html>

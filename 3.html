@@ -1,0 +1,42 @@
+<html>
+
+<body style="background:pink">
+<div style="margin:200px;">
+<h1 style="font-size:5px; color:red">
+</h1>
+</div>
+<script>
+var flag=0;
+var font=5;
+var text=document.querySelector('h1');
+
+function inc(){
+font++;
+text.style.fontSize=font;
+text.style.color="red";
+text.textContent="Text Growing "+font;
+if (font==50){
+flag=1;
+}
+}
+function dec(){
+font--;
+text.style.fontSize=font;
+text.style.color="blue";
+text.textContent="Text Shrinking "+font;
+if (font==5){
+flag=0;
+}
+}
+var time=setInterval(function(){
+if (flag==0){
+inc();
+}
+if (flag==1){
+dec();
+}
+},100);
+</script>
+</body>
+
+</html>
